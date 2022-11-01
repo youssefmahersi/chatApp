@@ -1,0 +1,224 @@
+.signin {
+  height: 70vh;
+  width: 100%;
+  letter-spacing: -0.035em;
+  background-color: #F0F2F5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signin .f1h0 {
+  width: 1000px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.signin .f1h0 .content {
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  margin: 40px 0;
+  padding: 20px 28.57px;
+  width: 396px;
+}
+
+.signin .f1h0 .content form {
+  margin-top: 10.46px;
+  box-shadow: none;
+}
+
+.signin .f1h0 .content form h1 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 14.46px;
+}
+
+.signin .f1h0 .content form .inputLogin {
+  border-radius: 8px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.signin .f1h0 .content form .inputLogin input {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #ccd0d5;
+  background-color: transparent;
+  border-radius: 8px;
+  outline: none;
+  padding-right: .7rem;
+  padding-left: 2.7rem;
+  font-size: 14px;
+}
+
+.signin .f1h0 .content form .inputLogin input:focus {
+  border: 1px solid #2F80ED;
+}
+
+.signin .f1h0 .content form .inputLogin .icon {
+  margin: 0 .7rem;
+  color: #828282;
+  left: 0;
+  margin-top: 5px;
+  position: absolute;
+}
+
+.signin .f1h0 .content form .inputLogin .errorIcon {
+  position: absolute;
+  right: 0;
+  color: red;
+  margin: 0 .7rem;
+  margin-top: 5px;
+}
+
+.signin .f1h0 .content form .inputLogin .emptyInput {
+  border: 1px solid red;
+}
+
+.signin .f1h0 .content form .inputLogin .emptyInput::-webkit-input-placeholder {
+  color: red;
+  opacity: .5;
+}
+
+.signin .f1h0 .content form span {
+  color: #f02849;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.signin .f1h0 .content form span a {
+  font-weight: bold;
+  cursor: pointer;
+  color: #f02849;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 8px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.signin .f1h0 .content form span a:hover {
+  text-decoration: underline;
+}
+
+.signin .f1h0 .content form .password {
+  margin-top: .7rem;
+}
+
+.signin .f1h0 .content form button {
+  width: 100%;
+  height: 50px;
+  background: #1877f2;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  border: 2px solid #1877f2;
+  margin-top: 15.51px;
+  cursor: pointer;
+  transition: .3s;
+  margin-bottom: 9px;
+}
+
+.signin .f1h0 .content form button:hover {
+  background: #1161ca;
+}
+
+.signin .f1h0 .content form .forgotPassword {
+  display: inline-block;
+  width: 40%;
+  margin-left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.signin .f1h0 .content form .forgotPassword:hover {
+  text-decoration: underline;
+}
+
+.signin .f1h0 .content form .verifyAccount {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+.signin .f1h0 .content .line {
+  position: relative;
+  width: 100%;
+  margin: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.signin .f1h0 .content .line span {
+  position: absolute;
+  border: 1px solid #E9EBEE;
+  width: 100%;
+}
+
+.signin .f1h0 .content .createAccount {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.signin .f1h0 .content .createAccount span {
+  display: inline-block;
+  line-height: 48px;
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 0 16px;
+  background-color: #42b72a;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.signin .f1h0 .content .createAccount span:hover {
+  background-color: #3ba126;
+}
+
+.signin .f1h0 .content .successfully {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-top: 5px;
+  color: #1877f2;
+  font-weight: bold;
+}
+
+.signin .f1h0 .info {
+  width: 50%;
+}
+
+.signin .f1h0 .info h1 {
+  font-size: 62px;
+  color: #2F80ED;
+  margin-bottom: .7rem;
+}
+
+.signin .f1h0 .info p {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+}

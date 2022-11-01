@@ -1,0 +1,38 @@
+@media (max-width: 931px){
+    .signin{
+        & .f1h0{
+            flex-direction: column-reverse;
+            & .info{
+                width: 396px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 420px){
+    .signin{
+        display: block;
+        & .f1h0{
+            width: 98%;
+            margin: auto;
+            & .content{
+                margin: 0;
+                width: 100%;
+            }
+            & .info{
+                width: 100%;
+                margin-top: 1rem;
+                & h1{
+                    font-size: 40px;
+                    color: #2F80ED;
+                    margin-bottom: .7rem;
+                }
+                & p{
+                    font-size: 22px;
+                    display: none;
+                }
+            }
+        }
+    }
+}

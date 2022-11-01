@@ -1,0 +1,195 @@
+.signin{
+    height: 70vh;
+    width: 100%;
+    letter-spacing: -0.035em;
+    background-color: #F0F2F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & .f1h0{
+        width: 1000px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        & .content{
+            align-items: center;
+            background-color: #fff;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 2px 14px rgba(0, 0, 0, 0.20);
+            box-sizing: border-box;
+            margin: 40px 0;
+            padding: 20px 28.57px;
+            width: 396px;
+            & form{
+                margin-top: 10.46px;
+                box-shadow: none;
+                & h1{
+                    font-weight: 600;
+                    font-size: 18px;
+                    color: #333333;
+                    margin-bottom: 14.46px;
+                }
+                & .inputLogin{
+                    border-radius: 8px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    & input{
+                        height: 100%;
+                        width: 100%;
+                        border: 1px solid #ccd0d5;
+                        background-color: transparent;
+                        border-radius: 8px;
+                        outline: none;
+                        padding-right: .7rem;
+                        padding-left: 2.7rem;
+                        font-size: 14px;
+                        &:focus{
+                            border: 1px solid #2F80ED;
+                        }
+                    }
+                    & .icon{
+                        margin: 0 .7rem;
+                        color: #828282;
+                        left: 0;
+                        margin-top: 5px;
+                        position: absolute;
+                    }
+                    & .errorIcon{
+                        position: absolute;
+                        right: 0;
+                        color: red;
+                        margin: 0 .7rem;
+                        margin-top: 5px;
+                    }
+                    & .emptyInput{
+                        border: 1px solid red;
+                        &::-webkit-input-placeholder{
+                            color: red;
+                            opacity: .5;
+                        }
+                    }
+                }
+                & span{
+                    color: #f02849;
+                    font-size: 13px;
+                    line-height: 16px;
+                    margin-top: 8px;
+                    text-align: left;
+                    & a{
+                        font-weight: bold;
+                        cursor: pointer;
+                        color: #f02849;
+                        font-size: 13px;
+                        line-height: 16px;
+                        margin-top: 8px;
+                        text-align: left;
+                        text-decoration: none;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                & .password{
+                    margin-top: .7rem;
+                }
+                & button{
+                    width: 100%;
+                    height: 50px;
+                    background: #1877f2;
+                    border-radius: 8px;
+                    font-weight: 600;
+                    font-size: 19px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    border: 2px solid #1877f2;
+                    margin-top: 15.51px;
+                    cursor: pointer;
+                    transition: .3s;
+                    margin-bottom: 9px;
+                    &:hover{
+                        background: #1161ca;
+                    }
+                }
+                & .forgotPassword{
+                    display: inline-block;
+                    width: 40%;
+                    margin-left: 50%;
+                    transform: translate(-50%);
+                    text-align: center;
+                    color: #1877f2;
+                    font-size: 14px;
+                    font-weight: 500;
+                    cursor: pointer;
+                    text-decoration: none;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+                & .verifyAccount{
+                    display: inline-block;
+                    width: 100%;
+                    text-align: center;
+                    color: red;
+                    font-weight: bold;
+                }
+            }
+            & .line{
+                position: relative;
+                width: 100%;
+                margin: 1rem 0;
+                margin-bottom: 2rem;
+                & span{
+                    position: absolute;
+                    border: 1px solid #E9EBEE;
+                    width: 100%;
+                }
+            }
+            & .createAccount{
+                display: inline-block;
+                text-align: center;
+                width: 100%;
+                & span{
+                    display: inline-block;
+                    line-height: 48px;
+                    border-radius: 6px;
+                    font-size: 17px;
+                    padding: 0 16px;
+                    background-color: #42b72a;
+                    color: #fff;
+                    font-weight: bold;
+                    cursor: pointer;
+                    transition: .3s;
+                    &:hover{
+                        background-color: #3ba126;
+                    }
+                }
+            }
+            & .successfully{
+                display: inline-block;
+                text-align: center;
+                width: 100%;
+                margin-top: 5px;
+                color: #1877f2;
+                font-weight: bold;
+            }
+        }
+        & .info{
+            width: 50%;
+            & h1{
+                font-size: 62px;
+                color: #2F80ED;
+                margin-bottom: .7rem;
+            }
+            & p{
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                font-size: 28px;
+            }
+        }
+    }
+}

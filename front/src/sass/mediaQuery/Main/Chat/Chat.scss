@@ -1,0 +1,85 @@
+@media (max-width: 903px) {
+    .main{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1628px) {
+    .main{
+        & .inputChat{
+            & input{
+                width: 95.5%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1376px) {
+    .main{
+        & .inputChat{
+            & input{
+                width: 94.5%;
+            }
+        }
+        & .chat{
+            & .chatPerson{
+                & .contentPerson{
+                    width: 85%;
+                    & .name{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .main{
+        & .inputChat{
+            & input{
+                width: 89.5%;
+            }
+        }
+        & .chat{
+            & .chatPerson{
+                & .contentPerson{
+                    width: 85%;
+                    & .name{
+                        width: 100%;
+                    }
+                    & .comment{
+                        & p{
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .main{
+        & .inputChat{
+            & input{
+                width: 87.5%;
+            }
+        }
+    }
+}
+@media (max-height: 750px) {
+    .main{
+        & .inputChat{
+            & input{
+                width: 87.5%;
+            }
+        }
+        & .chat{
+            height: 83vh;
+        }
+        & .inputChat{
+            margin-top: -.5rem;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.headerFind .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: .4rem 2rem;
+}
+
+.headerFind .header .logo {
+  font-size: 14.5px;
+  color: #1877f2;
+}
+
+.headerFind .header form {
+  display: flex;
+  align-items: center;
+  box-shadow: none;
+}
+
+.headerFind .header form input {
+  border: 1px solid #ccd0d5;
+  border-radius: 4px;
+  height: 40px;
+  width: 12.5rem;
+  outline: none;
+  font-size: 14px;
+  padding: 0 .5rem;
+}
+
+.headerFind .header form input:focus {
+  border: 1px solid #2F80ED;
+}
+
+.headerFind .header form .emptyInput {
+  border: 1px solid red;
+}
+
+.headerFind .header form .emptyInput::-webkit-input-placeholder {
+  color: red;
+  opacity: .5;
+}
+
+.headerFind .header form input:first-of-type {
+  margin-right: .4rem;
+}
+
+.headerFind .header form button {
+  background-color: #1877f2;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  height: 40px;
+  width: 4.5rem;
+  border-radius: 8px;
+  margin: 0 .8rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.headerFind .header form button:hover {
+  background-color: #0f70ee;
+}
+
+.headerFind .header form a {
+  color: #385898;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.headerFind .header form a:hover {
+  text-decoration: underline;
+}

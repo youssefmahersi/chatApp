@@ -1,0 +1,53 @@
+.mainDark {
+  background-color: #252329;
+  transition: .3s;
+}
+
+.mainDark .header {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mainDark .header h1 {
+  color: #E0E0E0;
+}
+
+.mainDark .chat .chatPerson .contentPerson .name h1 {
+  color: #828282;
+}
+
+.mainDark .chat .chatPerson .contentPerson .name span {
+  color: #828282;
+}
+
+.mainDark .chat .chatPerson .contentPerson .comment p {
+  color: #E0E0E0;
+}
+
+.mainDark .chat .line span:nth-child(1) {
+  border: 1px solid #828282;
+}
+
+.mainDark .chat .line span:nth-child(2) {
+  color: #828282;
+}
+
+.mainDark .chat .line span:nth-child(3) {
+  border: 1px solid #828282;
+}
+
+.mainDark .inputChat .boxChat {
+  background: #3C393F;
+}
+
+.mainDark .inputChat .boxChat input {
+  color: #f9f9f9;
+}
+
+.mainDark .inputChat .boxEmoji {
+  background: #3C393F;
+}
+
+.mainDark .inputChat .boxImage {
+  background: #3C393F;
+  color: #f9f9f9;
+}

@@ -1,0 +1,49 @@
+@media (max-width: 508px){
+    .checkAccount{
+        & .content{
+            & form{
+                width: 99%
+            }
+            & p{
+                width: 99%
+            }
+        }
+    }
+}
+@media (max-width: 434px){
+    .checkAccount{
+        & .content{
+            & form{
+                & .button{
+                    & a{
+                        width: 40%
+                    }
+                    & .click{
+                        & button,a{
+                            width: 6rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 384px){
+    .checkAccount{
+        & .content{
+            & form{
+                & .button{
+                    & a{
+                        width: 30%
+                    }
+                    & .click{
+                        & button,a{
+                            width: 5rem;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

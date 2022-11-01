@@ -1,0 +1,38 @@
+.channelsWhite{
+    background-color: #F8F8FF;
+    color: #120F13;
+    transition: .3s;
+    & .header{
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        & h1{
+            color: #120F13;
+        }
+        & span{
+            background-color: #BDBDBD;
+
+        }
+        & label{
+            color: #120F13;
+            background-color: #BDBDBD;
+        }
+    }
+    & .search{
+        background: rgb(224, 223, 223);
+        & input {
+            color: #3C393F;
+        }
+    }
+    & .channel{
+        & .channelPerson{
+            & span:first-of-type{
+                background: #BDBDBD;
+            }
+            & span:last-of-type{
+                color: #252329;
+            }
+            &:hover{
+                background-color: #BDBDBD;
+            }
+        }
+    }
+}

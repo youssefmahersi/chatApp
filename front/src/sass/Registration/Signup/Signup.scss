@@ -1,0 +1,325 @@
+.pageSignup{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .8);
+    top: 0;
+    animation: opacity .4s;
+}
+.signup{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    width: 432px;
+    box-shadow: 0 1rem 12px rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+    & .close{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        color: #606771;
+    }
+    & .header{
+        border-bottom: 1px solid #ccd0d5;
+        padding-bottom: 1rem;
+        padding: 13px 20px;
+        & h1{
+            color: #1c1e21;
+            font-size: 32px;
+        }
+        & p{
+            color: #606770;
+            font-size: 15px;
+        }
+    }
+    & form{
+        background-color: transparent;
+        overflow: visible;
+        padding: 13px 20px;
+        & .hSignUp{
+            font-weight: 700;
+            font-size: 19px;
+            color: #333333;
+            margin-bottom: 5px;
+        }
+        & p{
+            margin-bottom: 1.3rem;
+            font-weight: 400;
+            font-size: 16px;
+            color: #333333;
+        }
+        & .name{
+            & .firstName{
+                margin-right: 10px;
+            }
+            & .firstName,.lastName{
+                display: inline-block;
+                width: 48.7%;
+                position: relative;
+                & input{
+                    border: 1px solid #BDBDBD;
+                    border-radius: 4px;
+                    height: 40px;
+                    width: 100%;
+                    background-color: transparent;
+                    outline: none;
+                    padding: 0 .7rem;
+                    transition: .3s;
+                    &:focus{
+                        border: 1px solid #2F80ED;
+                    }
+                }
+                & .iconHandler{
+                    position: absolute;
+                    right: 10px;
+                    bottom: 5px;
+                    color: red;
+                }
+                & .emptyInput{
+                    border: 1px solid red;
+                    &::-webkit-input-placeholder{
+                        color: red;
+                        opacity: .6;
+                    }
+                }
+                & .messageError{
+                    position: absolute;
+                    left: -13rem;
+                    top: 8px;
+                    color: #fff;
+                    width: 11rem;
+                    padding: 5px;
+                    background-color: #be4b49;
+                    border-radius: 2px;
+                    box-shadow: 0 0 0 1px rgb(139, 3, 0 / 75%), 0 1px 10px rgb(0, 0, 0 / 35%);
+                    text-align: left;
+                    & .message{
+                        position: relative;
+                        color: #fff;
+                        font-size: 13px;
+                        width: 90%;
+                        margin-left: 5px;
+                    }
+                    .arrow-1 {
+                        position: absolute;
+                        right: -.7rem;
+                        color: #be4b49;
+                        text-shadow: 0 0 0 1px rgb(139, 3, 0 / 75%), 0 1px 10px rgb(0, 0, 0 / 35%);
+                        display: flex;
+                        height: 22px;
+                        width: 11px;
+                        top: 0;
+                        &::before{
+                            content: "";
+                            background: currentColor;
+                            width:15px;
+                            clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
+                            animation: a1 1.5s infinite linear;
+                        }
+                    }
+                }
+            }
+            & input:first-of-type{
+                margin-right: 1rem;
+            }
+        }
+        & .input{
+            height: 40px;
+            display: flex;
+            align-items: center;
+            margin: 14.5px 0;
+            position: relative;
+            border: none;
+            & input{
+                border: 1px solid #BDBDBD;
+                border-radius: 4px;
+                height: 100%;
+                width: 100%;
+                background-color: transparent;
+                outline: none;
+                padding-left: 2.7rem;
+                padding-right: .7rem;
+                transition: .3s;
+                &:focus{
+                    border: 1px solid #2F80ED;
+                }
+            }
+            & span:first-of-type{
+                position: absolute;
+                margin: 0 .7rem;
+                color: #828282;
+                margin-top: 5px;
+                left: 0;
+            }
+            & .iconHandler{
+                position: absolute;
+                right: 10px;
+                bottom: 5px;
+                color: red;
+            }
+            & .emptyInput{
+                border: 1px solid red;
+                &::-webkit-input-placeholder{
+                    color: red;
+                    opacity: .6;
+                }
+            }
+            & .messageError{
+                position: absolute;
+                left: -13rem;
+                top: 8px;
+                color: #fff;
+                width: 11rem;
+                padding: 5px;
+                background-color: #be4b49;
+                border-radius: 2px;
+                box-shadow: 0 0 0 1px rgb(139, 3, 0 / 75%), 0 1px 10px rgb(0, 0, 0 / 35%);
+                text-align: left;
+                & .message{
+                    position: relative;
+                    color: #fff;
+                    font-size: 13px;
+                    width: 90%;
+                    margin-left: 5px;
+                }
+                .arrow-1 {
+                    position: absolute;
+                    right: -.7rem;
+                    color: #be4b49;
+                    text-shadow: 0 0 0 1px rgb(139, 3, 0 / 75%), 0 1px 10px rgb(0, 0, 0 / 35%);
+                    display: flex;
+                    height: 22px;
+                    width: 11px;
+                    top: 0;
+                    &::before{
+                        content: "";
+                        background: currentColor;
+                        width:15px;
+                        clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
+                        animation: a1 1.5s infinite linear;
+                    }
+                }
+            }
+        }
+        & .birthday{
+            margin-top: 7.5px;
+            & .infoBirthday{
+                display: flex;
+                align-items: center;
+                & span{
+                    color: #606770;
+                    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+                    font-size: 12px;
+                    font-weight: normal;
+                    line-height: 20px;
+                    margin-bottom: 0;
+                    margin-top: 2px;
+                }
+                & span:last-of-type{
+                    margin-top: 7.8px;
+                    margin-left: 2px;
+                }
+            }
+            & .inputBirthday{
+                & input{
+                    border-radius: 4px;
+                    border: 1px solid #BDBDBD;
+                    width: 50%;
+                    height: 40px;
+                    background-color: transparent;
+                    outline: none;
+                    padding: 0 .7rem;
+                    transition: .3s;
+                    &:focus{
+                        border: 1px solid #2F80ED;
+                    }
+                }
+                & .old{
+                    color: #606770;
+                    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+                    font-size: 15px;
+                    margin-left: 1rem;
+                }
+                & .birthdayError{
+                    display: block;
+                    margin-top: 2.5px;
+                    color: red;
+                }
+                & .emptyInput{
+                    border: 1px solid red;
+                    &::-webkit-input-placeholder{
+                        color: red;
+                        opacity: .6;
+                    }
+                }
+            }
+        }
+        & .gender{
+            margin-top: 7.5px;
+            & .infoGender{
+                display: flex;
+                align-items: center;
+                & span{
+                    color: #606770;
+                    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+                    font-size: 12px;
+                    font-weight: normal;
+                    line-height: 20px;
+                    margin-bottom: 0;
+                    margin-top: 2px;
+                }
+                & span:last-of-type{
+                    margin-top: 7.8px;
+                    margin-left: 2px;
+                }
+            }
+            & .inputGender{
+                display: flex;
+                align-items: center;
+                & label{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-direction: row-reverse;
+                    box-sizing: border-box;
+                    color: #1c1e21;
+                    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+                    font-size: 15px;
+                    line-height: 36px;
+                    width: 120px;
+                    padding: 0 10px;
+                    border: 1px solid #ccd0d5;
+                    border-radius: 5px;
+                    margin-right: 12px;
+                }
+                & .emptylabel{
+                    border: 1px solid red;
+                    & span{
+                        color: red;
+                    }
+                }
+            }
+        }
+        & button{
+            width: 100%;
+            height: 38px;
+            background: #2F80ED;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 16px;
+            text-align: center;
+            color: #FFFFFF;
+            border: 2px solid #2F80ED;
+            margin-top: 22.51px;
+            cursor: pointer;
+            transition: .3s;
+            margin-bottom: 9px;
+            &:hover{
+                background-color: transparent;
+                color: #2F80ED;
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.showChannelWhite{
+    background-color: #fff;
+    & .header{
+        color: #252329;
+    }
+    & .serverOverView{
+        color: #252329;
+        & .sliderLeft{
+            & .image{
+                & span{
+                    background: #BDBDBD;
+                }
+            }
+            & .text{
+                & label{
+                    border: 1px solid #252329;
+                    &:hover{
+                        background-color: #252329;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        & .sliderRight{
+            & .infoServer{
+                & h1{
+                    color: #74787c;
+                }
+                & label{
+                    border: 1px solid rgb(182, 182, 182);
+                    background-color: rgb(221, 221, 221);
+                    color:  #494b4e;
+                }
+            }
+            & button{
+                background-color: darkorchid;
+                border: 2px solid darkorchid;
+                color: #fff;
+                &:hover{
+                    background-color: transparent;
+                    color: darkorchid;
+                }
+            }
+        }
+    }
+    & .line{
+        & span{
+            border: 1px solid #e5e7eb;
+        }
+    }
+}

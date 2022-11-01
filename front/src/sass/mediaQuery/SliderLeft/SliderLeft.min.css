@@ -1,0 +1,1 @@
+@media (max-width: 903px){.channels .header label{display:flex;color:#fff}.mediaQuery{position:absolute;height:100vh;z-index:9999;left:-23rem}.mediaQuery .channels{width:23rem}#checkLabel{display:block;position:absolute;z-index:999;left:.7rem;top:.5rem}#check:checked ~ .mediaQuery{left:0}}@media (max-width: 371px){.mediaQuery{width:100%}.mediaQuery .channels{width:100%}}

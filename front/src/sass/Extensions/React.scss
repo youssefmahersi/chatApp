@@ -1,0 +1,223 @@
+.isLoading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E9EBEE;
+    height: 60vh;
+    width: 100%;
+    .loader {
+        --path: #2F3545;
+        --dot: #5628EE;
+        --duration: 3s;
+        width: 44px;
+        height: 44px;
+        position: relative;
+        &:before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            position: absolute;
+            display: block;
+            background: var(--dot);
+            top: 37px;
+            left: 19px;
+            transform: translate(-18px, -18px);
+            animation: dotRect var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+        }
+        svg {
+            display: block;
+            width: 100%;
+            height: 100%;
+            rect,
+            polygon,
+            circle {
+                fill: none;
+                stroke: var(--path);
+                stroke-width: 10px;
+                stroke-linejoin: round;
+                stroke-linecap: round;
+            }
+            polygon {
+                stroke-dasharray: 145 (221 - 145) 145 (221 - 145);
+                stroke-dashoffset: 0;
+                animation: pathTriangle var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+            }
+            rect {
+                stroke-dasharray: (256 / 4 * 3) (256 / 4) (256 / 4 * 3) (256 / 4);
+                stroke-dashoffset: 0;
+                animation: pathRect 3s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+            }
+            circle {
+                stroke-dasharray: (200 / 4 * 3) (200 / 4) (200 / 4 * 3) (200 / 4);
+                stroke-dashoffset: 75;
+                animation: pathCircle var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+            }
+        }
+        &.triangle {
+            width: 48px;
+            &:before {
+                left: 21px;
+                transform: translate(-10px, -18px);
+                animation: dotTriangle var(--duration) cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite;
+            }
+        }
+    }
+    
+    @keyframes pathTriangle {
+        33% {
+            stroke-dashoffset: 74;
+        }
+        66% {
+            stroke-dashoffset: 147;
+        }
+        100% {
+            stroke-dashoffset: 221;
+        }
+    }
+    
+    @keyframes dotTriangle {
+        33% {
+            transform: translate(0, 0);
+        }
+        66% {
+            transform: translate(10px, -18px);
+        }
+        100% {
+            transform: translate(-10px, -18px);
+        }
+    }
+    
+    @keyframes pathRect {
+        25% {
+            stroke-dashoffset: 64;
+        }
+        50% {
+            stroke-dashoffset: 128;
+        }
+        75% {
+            stroke-dashoffset: 192;
+        }
+        100% {
+            stroke-dashoffset: 256;
+        }
+    }
+    
+    @keyframes dotRect {
+        25% {
+            transform: translate(0, 0);
+        }
+        50% {
+            transform: translate(18px, -18px);
+        }
+        75% {
+            transform: translate(0, -36px);
+        }
+        100% {
+            transform: translate(-18px, -18px);
+        }
+    }
+    
+    @keyframes pathCircle {
+        25% {
+            stroke-dashoffset: 125;
+        }
+        50% {
+            stroke-dashoffset: 175;
+        }
+        75% {
+            stroke-dashoffset: 225;
+        }
+        100% {
+            stroke-dashoffset: 275;
+        }
+    }
+    
+    .loader {
+        display: inline-block;
+        margin: 0 16px;
+    }
+    
+    html {
+        -webkit-font-smoothing: antialiased;
+    }
+    
+    * {
+        box-sizing: border-box;
+        &:before,
+        &:after {
+            box-sizing: border-box;
+        }
+    }
+}
+
+.isLoadingButton{
+    opacity: .5;
+}
+
+.loaderChat {
+    position: relative;
+    width: 108px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    &::after , &::before  {
+        content: '';
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        background-color: #FFF;
+        background-image:  radial-gradient(circle 14px, #0d161b 100%, transparent 0);
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        animation: eyeMove 10s infinite , blink 10s infinite;
+      }
+  }
+@keyframes eyeMove {
+    0%  , 10% {     background-position: 0px 0px}
+    13%  , 40% {     background-position: -15px 0px}
+    43%  , 70% {     background-position: 15px 0px}
+    73%  , 90% {     background-position: 0px 15px}
+    93%  , 100% {     background-position: 0px 0px}
+}
+@keyframes blink {
+    0%  , 10% , 12% , 20%, 22%, 40%, 42% , 60%, 62%,  70%, 72% , 90%, 92%, 98% , 100%
+    { height: 48px}
+    11% , 21% ,41% , 61% , 71% , 91% , 99%
+    { height: 18px}
+}
+
+.loaderChannel {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    &:before , &:after {
+        content: '';
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        position: relative;
+        margin: 0  5px  ;
+        border-radius: 50%;
+        color: #FFF;
+        background: currentColor;
+        box-shadow: 50px 0 ,  -50px 0;
+        animation: left 1s infinite ease-in-out;
+      }
+    &:after {
+        color: #FF3D00;
+        animation: right 1.1s infinite ease-in-out;
+    }
+  }
+  @keyframes right {
+    0% , 100%{transform: translateY(-10px) }
+    50% { transform: translateY(10px) }
+  }
+
+  @keyframes left {
+    0% , 100%{ transform: translateY(10px) }
+    50% { transform: translateY(-10px) }
+  }

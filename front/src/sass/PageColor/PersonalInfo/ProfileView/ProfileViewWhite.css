@@ -1,0 +1,86 @@
+.personalInfoWhite .header .logo h1 {
+  color: #333333;
+}
+
+.personalInfoWhite .header .user h1 {
+  color: #333333;
+}
+
+.personalInfoWhite .header .user .listProfile {
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.personalInfoWhite .header .user .listProfile .list {
+  color: black;
+}
+
+.personalInfoWhite .header .user .listProfile .list h1, .personalInfoWhite .header .user .listProfile .list a {
+  color: black;
+}
+
+.personalInfoWhite .header .user .listProfile .list:hover {
+  background: #F2F2F2;
+}
+
+.personalInfoWhite .header .user .listProfile .line span {
+  border: 1px solid #E0E0E0;
+}
+
+.personalInfoWhite .header .user .listProfile .logout {
+  color: red;
+}
+
+.personalInfoWhite .header .user .listProfile .logout h1 {
+  color: red;
+}
+
+.personalInfoWhite .content .headerForm h1 {
+  color: #000000;
+}
+
+.personalInfoWhite .content .headerForm p {
+  color: #000000;
+}
+
+.personalInfoWhite .content form {
+  border: 1px solid #E0E0E0;
+}
+
+.personalInfoWhite .content form .profile {
+  border-bottom: 1px solid #D3D3D3;
+}
+
+.personalInfoWhite .content form .profile .textProfile h1 {
+  color: #000000;
+}
+
+.personalInfoWhite .content form .profile .textProfile p {
+  color: #828282;
+}
+
+.personalInfoWhite .content form .profile span {
+  border: 1px solid #828282;
+  color: #828282;
+}
+
+.personalInfoWhite .content form .photo {
+  border-bottom: 1px solid #D3D3D3;
+}
+
+.personalInfoWhite .content form .photo span {
+  color: #BDBDBD;
+}
+
+.personalInfoWhite .content form .text {
+  border-bottom: 1px solid #D3D3D3;
+}
+
+.personalInfoWhite .content form .text span {
+  color: #BDBDBD;
+}
+
+.personalInfoWhite .content form .text h1 {
+  color: #333333;
+}

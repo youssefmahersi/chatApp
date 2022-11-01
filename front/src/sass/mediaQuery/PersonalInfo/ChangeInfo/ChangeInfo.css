@@ -1,0 +1,15 @@
+@media (max-width: 806px) {
+  .changeInfo {
+    width: 95%;
+  }
+  .changeInfo form {
+    padding: 29.51px 25.3px;
+    margin-top: 5px;
+  }
+  .changeInfo form .input input {
+    width: 100%;
+  }
+  .changeInfo form .bio textarea {
+    width: 100%;
+  }
+}

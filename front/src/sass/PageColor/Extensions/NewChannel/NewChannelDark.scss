@@ -1,0 +1,35 @@
+.newChannelDark{
+    background: rgba(18, 15, 19, 0.5);
+    & form{
+        background: #120F13;
+        & h1{
+            color: #F2F2F2;
+        }
+        & span{
+            color: #F2F2F2;
+            font-weight: 500;
+        }
+        & input{
+            background: #3C393F;
+            border: 2px solid #3C393F;
+            color: #fff;
+            &:focus{
+                border: 2px solid #524f53;
+            }
+        }
+        & .emptyInput{
+            border: 1px solid red;
+            &::-webkit-input-placeholder{
+                color: red;
+            }
+        }
+        & textarea{
+            background: #3C393F;
+            border: 2px solid #3C393F;
+            color: #fff;
+            &:focus{
+                border: 2px solid #524f53;
+            }
+        }
+    }
+}

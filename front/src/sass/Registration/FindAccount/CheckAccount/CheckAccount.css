@@ -1,0 +1,174 @@
+.checkAccount .content {
+  background-color: #E9EBEE;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.checkAccount .content form {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  width: 500px;
+  margin-bottom: 1rem;
+}
+
+.checkAccount .content form h2 {
+  padding: 1rem;
+  color: #162643;
+  font-size: 22px;
+}
+
+.checkAccount .content form h1 {
+  font-size: 15px;
+}
+
+.checkAccount .content form .line {
+  position: relative;
+}
+
+.checkAccount .content form .line span {
+  position: absolute;
+  border: 1px solid #E9EBEE;
+  width: 100%;
+}
+
+.checkAccount .content form .data {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.checkAccount .content form .data .sliderLeft {
+  width: 65%;
+}
+
+.checkAccount .content form .data .sliderLeft p {
+  color: #162643;
+  font-size: 17px;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.checkAccount .content form .data .sliderLeft .select {
+  display: flex;
+  align-items: flex-start;
+  transition: .3s;
+}
+
+.checkAccount .content form .data .sliderLeft .select input {
+  width: 22px;
+  height: 22px;
+}
+
+.checkAccount .content form .data .sliderLeft .select input {
+  margin-right: 5px;
+}
+
+.checkAccount .content form .data .sliderLeft .select label {
+  margin-left: 5px;
+}
+
+.checkAccount .content form .data .sliderLeft .select label h1 {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.checkAccount .content form .data .sliderLeft .select label p {
+  font-size: 13px;
+  line-height: 16px;
+  text-align: left;
+  width: 100%;
+}
+
+.checkAccount .content form .data .sliderLeft .select:hover {
+  background-color: #E9EBEE;
+}
+
+.checkAccount .content form .data .sliderLeft .select:first-of-type {
+  margin-bottom: 7px;
+}
+
+.checkAccount .content form .data .sliderLeft .select:last-of-type input {
+  width: 17px;
+  height: 17px;
+  margin-top: 2.5px;
+}
+
+.checkAccount .content form .data .sliderRight {
+  width: 32%;
+  text-align: center;
+}
+
+.checkAccount .content form .data .sliderRight img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.checkAccount .content form .data .sliderRight h1 {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.checkAccount .content form .data .sliderRight span {
+  color: #606770;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.checkAccount .content form .button {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkAccount .content form .button a {
+  text-decoration: none;
+  color: #1877f2;
+  font-size: 13px;
+}
+
+.checkAccount .content form .button a:hover {
+  text-decoration: underline;
+}
+
+.checkAccount .content form .button .click button, .checkAccount .content form .button .click a {
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 36px;
+  margin-left: 8px;
+  width: 6rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.checkAccount .content form .button .click a {
+  display: inline-block;
+  text-align: center;
+  color: #4b4f56;
+  background-color: #e4e6eb;
+}
+
+.checkAccount .content form .button .click a:hover {
+  text-decoration: none;
+}
+
+.checkAccount .content form .button .click button {
+  background-color: #216FDB;
+  color: #fff;
+}
+
+.checkAccount .content p {
+  font-size: 13px;
+  text-align: left;
+  width: 500px;
+  color: #90949c;
+}

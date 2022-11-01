@@ -1,0 +1,108 @@
+.newChannel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: -0.035em;
+  animation: opacity .2s;
+}
+
+.newChannel form {
+  width: 656.02px;
+  border-radius: 24px;
+  padding: 1rem 2rem;
+}
+
+.newChannel form h1 {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 20.43px;
+}
+
+.newChannel form span {
+  display: inline-block;
+  margin-top: 20.63px;
+  margin-bottom: 5px;
+}
+
+.newChannel form input {
+  display: block;
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  outline: none;
+  padding: 11.5px 15.64px;
+  transition: .3s;
+}
+
+.newChannel form textarea {
+  display: block;
+  margin-top: 26.63px;
+  width: 100%;
+  height: 115.55px;
+  border-radius: 8px;
+  outline: none;
+  padding: 11.5px 15.64px;
+  transition: .3s;
+  max-width: 100%;
+  min-height: 48px;
+}
+
+.newChannel form .button {
+  float: right;
+  margin-top: 28.7px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.newChannel form .button button {
+  cursor: pointer;
+}
+
+.newChannel form .button button:first-of-type {
+  width: 99.09px;
+  height: 39.34px;
+  background: #2F80ED;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #F2F2F2;
+  border: 2px solid #2F80ED;
+  margin-left: 1rem;
+  transition: .3s;
+}
+
+.newChannel form .button button:first-of-type:hover {
+  background-color: transparent;
+  color: #2F80ED;
+}
+
+.newChannel form .button button:last-of-type {
+  width: 99.09px;
+  height: 39.34px;
+  background: red;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #F2F2F2;
+  border: 2px solid red;
+  transition: .3s;
+}
+
+.newChannel form .button button:last-of-type:hover {
+  background-color: transparent;
+  color: red;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

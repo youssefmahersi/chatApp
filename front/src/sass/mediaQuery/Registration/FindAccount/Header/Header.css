@@ -1,0 +1,8 @@
+@media (max-width: 832px) {
+  .headerFind .header .logo {
+    font-size: 14.5px;
+  }
+  .headerFind .header form {
+    display: none;
+  }
+}

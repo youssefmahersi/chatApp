@@ -1,0 +1,15 @@
+.home{
+    width: 83%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    & h1{
+        height: 3rem;
+    }
+    & span{
+        height: 3rem;
+    }
+}

@@ -1,0 +1,151 @@
+.changeInfo{
+    letter-spacing: -0.035em;
+    padding-top: 21.13px;
+    transition: .3s;
+    & .back{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        width: 40%;
+        margin: auto;
+        & span{
+            margin-top: 5px;
+        }
+        & h1{
+            font-weight: 400;
+            font-size: 18px;
+        }
+    }
+    & form{
+        border-radius: 12px;
+        padding: 29.51px 49.3px;
+        width: 40%;
+        margin: auto;
+        & .info{
+            & h1{
+                font-weight: 400;
+                font-size: 24px;
+                // color: #000000;
+            }
+            & p{
+                font-weight: 500;
+                font-size: 13px;
+                // color: #828282;
+            }
+        }
+        & .image{
+            margin-top: 25.89px;
+            display: flex;
+            align-items: center;
+            & input{
+                display: none;
+            }
+            & label:first-of-type{
+                position: relative;
+                width: 72px;
+                height: 72px;
+                cursor: pointer;
+                & img{
+                    width: 72px;
+                    height: 72px;
+                    border-radius: 8px;
+                }
+                & span{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    // color: #fff;
+                }
+            }
+            & label:last-of-type{
+                margin-left: 27.5px;
+                font-weight: 500;
+                font-size: 13px;
+                // color: #828282;
+                cursor: pointer;
+            }
+        }
+        & .input{
+            margin-top: 12px;
+            display: flex;
+            flex-direction: column-reverse;
+            & label{
+                font-weight: 500;
+                font-size: 13px;
+                // color: #4F4F4F;
+                margin-bottom: 3.83px;
+                transition: .3s;
+            }
+            & input{
+                // border: 1px solid #828282;
+                border-radius: 12px;
+                outline: none;
+                padding: 17px 18.21px;
+                height: 52px;
+                width: 416.93px;
+                transition: .3s;
+                // &:focus{
+                //     border: 1px solid #2D9CDB;
+                //     &::-webkit-input-placeholder{
+                //         transition: .3s;
+                //         color: #2D9CDB;
+                //     }
+                // }
+            }
+            // & input:focus ~ label{
+            //     color: #2D9CDB;
+            // }
+        }
+        & .name{
+            margin-top: 20px;
+        }
+        & .bio{
+            margin-top: 12px;
+            display: flex;
+            flex-direction: column-reverse;
+            & label{
+                font-weight: 500;
+                font-size: 13px;
+                // color: #4F4F4F;
+                margin-bottom: 3.83px;
+                transition: .3s;
+            }
+            & textarea{
+                // border: 1px solid #828282;
+                border-radius: 12px;
+                outline: none;
+                padding: 17px 18.21px;
+                height: 91.58px;
+                width: 416.93px;
+                transition: .3s;
+                &:focus{
+                    // border: 1px solid #2D9CDB;
+                    &::-webkit-input-placeholder{
+                        transition: .3s;
+                        // color: #2D9CDB;
+                    }
+                }
+            }
+            // & textarea:focus ~ label{
+            //     color: #2D9CDB;
+            // }
+        }
+        & button{
+            margin-top: 24px;
+            // background: #2F80ED;
+            border-radius: 8px;
+            padding: 8px 24px;
+            font-weight: 500;
+            font-size: 16px;
+            color: #FFFFFF;
+            // border: 2px solid #2F80ED;
+            cursor: pointer;
+            transition: .4s;
+            &:hover{
+                background-color: transparent;
+                // color: #2F80ED;
+            }
+        }
+    }
+}

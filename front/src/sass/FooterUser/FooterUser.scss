@@ -1,0 +1,83 @@
+.footerUser{
+    height: 75.42px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    letter-spacing: -0.035em;
+    & .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+        & .name{
+            display: flex;
+            align-items: center;
+            & img{
+                width: 42px;
+                height: 42px;
+                border-radius: 7px;
+            }
+            & h1{
+                font-weight: 700;
+                font-size: 18px;
+                letter-spacing: -0.035em;
+                margin-left: 15px;
+            }
+        }
+        & span{
+            transition: .3s;
+            margin-top: 6px;
+            cursor: pointer;
+        }
+    }
+    & .listProfile{
+        position: absolute;
+        width: 192.04px;
+        width: 100%;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-bottom: none;
+        right: 0;
+        top: -12.6rem;
+        padding: .7rem;
+        animation: opacity .3s;
+        & .list{
+            display: flex;
+            align-items: center;
+            border-radius: 8px;
+            padding: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            & span{
+                margin-top: 5px;
+            }
+            & h1,a{
+                font-weight: 500;
+                font-size: 12px;
+                margin-left: 12px;
+                text-decoration: none;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        & .line{
+            position: relative;
+            margin: .3rem 0;
+            margin-bottom: .6rem;
+            & span{
+                position: absolute;
+                width: 100%;
+            }
+        }
+        & .logout{
+            color: red;
+            & h1{
+                color: red;
+            }
+        }
+    }
+}

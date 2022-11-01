@@ -1,0 +1,20 @@
+@media (max-width: 903px) {
+    .home{
+        width: 100%;
+        & h1{
+            height: 3rem;
+        }
+        & span{
+            height: 3rem;
+        }
+    }
+}
+
+@media (max-width: 410px) {
+    .home{
+        width: 100%;
+        & h1{
+            font-size: 19px;
+        }
+    }
+}

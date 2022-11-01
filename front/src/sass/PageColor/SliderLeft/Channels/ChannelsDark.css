@@ -1,0 +1,41 @@
+.channelsDark {
+  background-color: #120F13;
+  color: #fff;
+  transition: .3s;
+}
+
+.channelsDark .header {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.channelsDark .header h1 {
+  color: #E0E0E0;
+}
+
+.channelsDark .header span {
+  background: #252329;
+}
+
+.channelsDark .header label {
+  background: #252329;
+}
+
+.channelsDark .search {
+  background: #3C393F;
+}
+
+.channelsDark .search input {
+  color: #fff;
+}
+
+.channelsDark .channel .channelPerson span:first-of-type {
+  background: #252329;
+}
+
+.channelsDark .channel .channelPerson span:last-of-type {
+  color: #BDBDBD;
+}
+
+.channelsDark .channel .channelPerson:hover {
+  background-color: #3C393F;
+}

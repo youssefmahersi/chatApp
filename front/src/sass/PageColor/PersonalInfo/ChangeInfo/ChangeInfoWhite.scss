@@ -1,0 +1,76 @@
+.changeInfoWhite{
+    & .back{
+        & span{
+            color: #2D9CDB;
+        }
+        & h1{
+            color: #2D9CDB;
+        }
+    }
+    & form{
+        border: 1px solid #E0E0E0;
+        & .info{
+            & h1{
+                color: #000000;
+            }
+            & p{
+                color: #828282;
+            }
+        }
+        & .image{
+            & label:first-of-type{
+                & span{
+                    color: #fff;
+                }
+            }
+            & label:last-of-type{
+                color: #828282;
+            }
+        }
+        & .input{
+            & label{
+                color: #4F4F4F;
+            }
+            & input{
+                border: 1px solid #828282;
+                &:focus{
+                    border: 1px solid #2D9CDB;
+                    &::-webkit-input-placeholder{
+                        transition: .3s;
+                        color: #2D9CDB;
+                    }
+                }
+            }
+            & input:focus ~ label{
+                color: #2D9CDB;
+            }
+        }
+        & .bio{
+            & label{
+                color: #4F4F4F;
+            }
+            & textarea{
+                border: 1px solid #828282;
+                &:focus{
+                    border: 1px solid #2D9CDB;
+                    &::-webkit-input-placeholder{
+                        transition: .3s;
+                        color: #2D9CDB;
+                    }
+                }
+            }
+            & textarea:focus ~ label{
+                color: #2D9CDB;
+            }
+        }
+        & button{
+            background: #2F80ED;
+            color: #FFFFFF;
+            border: 2px solid #2F80ED;
+            &:hover{
+                background-color: transparent;
+                color: #2F80ED;
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.changeInfoDark {
+  background-color: #252329;
+}
+
+.changeInfoDark .back span {
+  color: #2D9CDB;
+}
+
+.changeInfoDark .back h1 {
+  color: #2D9CDB;
+}
+
+.changeInfoDark form {
+  border: 1px solid #424141;
+}
+
+.changeInfoDark form .info h1 {
+  color: #fff;
+}
+
+.changeInfoDark form .info p {
+  color: #828282;
+}
+
+.changeInfoDark form .image label:first-of-type span {
+  color: #fff;
+}
+
+.changeInfoDark form .image label:last-of-type {
+  color: #e4dede;
+}
+
+.changeInfoDark form .input label {
+  color: #c9c6c6;
+}
+
+.changeInfoDark form .input input {
+  border: 1px solid #555555;
+  background-color: #555555;
+  color: #e4dede;
+}
+
+.changeInfoDark form .input input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.changeInfoDark form .input input:focus {
+  border: 1px solid #585858;
+}
+
+.changeInfoDark form .input input:focus::-webkit-input-placeholder {
+  transition: .3s;
+  color: #585858;
+}
+
+.changeInfoDark form .input input:focus ~ label {
+  color: #fff;
+}
+
+.changeInfoDark form .bio label {
+  color: #c9c6c6;
+}
+
+.changeInfoDark form .bio textarea {
+  border: 1px solid #555555;
+  background-color: #555555;
+  color: #e4dede;
+}
+
+.changeInfoDark form .bio textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.changeInfoDark form .bio textarea:focus {
+  border: 1px solid #585858;
+}
+
+.changeInfoDark form .bio textarea:focus::-webkit-input-placeholder {
+  transition: .3s;
+  color: #585858;
+}
+
+.changeInfoDark form .bio textarea:focus ~ label {
+  color: #fff;
+}
+
+.changeInfoDark form button {
+  background: #2F80ED;
+  color: #FFFFFF;
+  border: 2px solid #2F80ED;
+}
+
+.changeInfoDark form button:hover {
+  background-color: transparent;
+  color: #2F80ED;
+}

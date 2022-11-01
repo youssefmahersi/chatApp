@@ -1,0 +1,82 @@
+.personalInfoWhite{
+    & .header{
+        & .logo{
+            & h1{
+                color: #333333;
+            }
+        }
+        & .user{
+            & h1{
+                color: #333333;
+            }
+            & .listProfile{
+                background: #FFFFFF;
+                border: 1px solid #E0E0E0;
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+                & .list{
+                    color: black;
+                    & h1,a{
+                        color: black;
+                    }
+                    &:hover{
+                        background: #F2F2F2;
+                    }
+                }
+                & .line{
+                    & span{
+                        border: 1px solid #E0E0E0;
+                    }
+                }
+                & .logout{
+                    color: red;
+                    & h1{
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+    & .content{
+        & .headerForm{
+            & h1{
+                color: #000000;
+            }
+            & p{
+                color: #000000;
+            }
+        }
+        & form{
+            border: 1px solid #E0E0E0;
+            & .profile{
+                border-bottom: 1px solid #D3D3D3;
+                & .textProfile{
+                    & h1{
+                        color: #000000;
+                    }
+                    & p{
+                        color: #828282;
+                    }
+                }
+                & span{
+                    border: 1px solid #828282;
+                    color: #828282;
+                }
+            }
+            & .photo{
+                border-bottom: 1px solid #D3D3D3;
+                & span{
+                    color: #BDBDBD;
+                }
+            }
+            & .text{
+                border-bottom: 1px solid #D3D3D3;
+                & span{
+                    color: #BDBDBD;
+                }
+                & h1{
+                    color: #333333;
+                }
+            }
+        }
+    }
+}

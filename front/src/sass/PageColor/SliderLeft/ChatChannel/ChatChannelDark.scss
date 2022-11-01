@@ -1,0 +1,30 @@
+.chatChannelDark{
+    transition: .3s;
+    & .backChannels{
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        & span:last-of-type{
+            color: #E0E0E0;
+        }
+    }
+    & .info{
+        & h1{
+            color: #E0E0E0;
+        }
+        & p{
+            color: #E0E0E0;
+        }
+    }
+    & .h1Members{
+        color: #E0E0E0;
+    }
+    & .members{
+        & .membersUser{
+            & h1{
+                color: #828282;
+            }
+            &:hover{
+                background-color: #3C393F;
+            }
+        }
+    }
+}

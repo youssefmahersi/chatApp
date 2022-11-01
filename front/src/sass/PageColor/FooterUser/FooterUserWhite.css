@@ -1,0 +1,38 @@
+.footerUserWhite {
+  background: #F0FFFF;
+  transition: .3s;
+}
+
+.footerUserWhite .content .name h1 {
+  color: #000;
+}
+
+.footerUserWhite .listProfile {
+  background: #f1ecec;
+  border-bottom: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.footerUserWhite .listProfile .list {
+  color: #252329;
+}
+
+.footerUserWhite .listProfile .list h1, .footerUserWhite .listProfile .list a {
+  color: #252329;
+}
+
+.footerUserWhite .listProfile .list:hover {
+  background: #d6d1d1;
+}
+
+.footerUserWhite .listProfile .line span {
+  border: 1px solid #3C393F;
+}
+
+.footerUserWhite .listProfile .logout {
+  color: red;
+}
+
+.footerUserWhite .listProfile .logout h1 {
+  color: red;
+}

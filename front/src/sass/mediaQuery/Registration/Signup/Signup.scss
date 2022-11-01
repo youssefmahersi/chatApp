@@ -1,0 +1,15 @@
+@media (max-width: 440px){
+    .signup{
+        width: 100%;
+        & form{
+            & .name{
+                & .firstName,.lastName{
+                    width: 100%;
+                }
+                & .firstName{
+                    margin-bottom: 14.5px
+                }
+            }
+        }
+    }
+}

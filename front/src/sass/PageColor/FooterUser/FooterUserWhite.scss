@@ -1,0 +1,36 @@
+.footerUserWhite{
+    background: #F0FFFF;
+    transition: .3s;
+    & .content{
+        & .name{
+            & h1{
+                color: #000;
+            }
+        }
+    }
+    & .listProfile{
+        background: rgb(241, 236, 236);
+        border-bottom: none;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+        & .list{
+            color: #252329;
+            & h1,a{
+                color: #252329;
+            }
+            &:hover{
+                background: #d6d1d1;
+            }
+        }
+        & .line{
+            & span{
+                border: 1px solid #3C393F;
+            }
+        }
+        & .logout{
+            color: red;
+            & h1{
+                color: red;
+            }
+        }
+    }
+}

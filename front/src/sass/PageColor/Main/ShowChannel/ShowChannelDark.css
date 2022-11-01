@@ -1,0 +1,49 @@
+.showChannelDark {
+  background-color: #252329;
+}
+
+.showChannelDark .header {
+  color: #fff;
+}
+
+.showChannelDark .serverOverView {
+  color: #fff;
+}
+
+.showChannelDark .serverOverView .sliderLeft .image span {
+  background: #3C393F;
+}
+
+.showChannelDark .serverOverView .sliderLeft .text label {
+  border: 1px solid #fff;
+}
+
+.showChannelDark .serverOverView .sliderLeft .text label:hover {
+  background-color: #fff;
+  color: #252329;
+}
+
+.showChannelDark .serverOverView .sliderRight .infoServer h1 {
+  color: #74787c;
+}
+
+.showChannelDark .serverOverView .sliderRight .infoServer label {
+  border: 1px solid #1a1c1f;
+  background-color: #363A3F;
+  color: #b6b6b6;
+}
+
+.showChannelDark .serverOverView .sliderRight button {
+  background-color: darkorchid;
+  border: 2px solid darkorchid;
+  color: #fff;
+}
+
+.showChannelDark .serverOverView .sliderRight button:hover {
+  background-color: transparent;
+  color: darkorchid;
+}
+
+.showChannelDark .line span {
+  border: 1px solid #363A3F;
+}

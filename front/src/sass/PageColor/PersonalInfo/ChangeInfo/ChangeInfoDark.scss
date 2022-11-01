@@ -1,0 +1,87 @@
+.changeInfoDark{
+    background-color: #252329;
+    & .back{
+        & span{
+            color: #2D9CDB;
+        }
+        & h1{
+            color: #2D9CDB;
+        }
+    }
+    & form{
+        border: 1px solid #424141;
+        & .info{
+            & h1{
+                color: #fff;
+            }
+            & p{
+                color: #828282;
+            }
+        }
+        & .image{
+            & label:first-of-type{
+                & span{
+                    color: #fff;
+                }
+            }
+            & label:last-of-type{
+                color: rgb(228, 222, 222);
+            }
+        }
+        & .input{
+            & label{
+                color: rgb(201, 198, 198);
+            }
+            & input{
+                border: 1px solid rgb(85, 85, 85);
+                background-color: rgb(85, 85, 85);
+                color:rgb(228, 222, 222);
+                &::-webkit-input-placeholder{
+                    color: #fff;
+                }
+                &:focus{
+                    border: 1px solid #585858;
+                    &::-webkit-input-placeholder{
+                        transition: .3s;
+                        color: #585858;
+                    }
+                }
+            }
+            & input:focus ~ label{
+                color: #fff;
+            }
+        }
+        & .bio{
+            & label{
+                color: rgb(201, 198, 198);
+            }
+            & textarea{
+                border: 1px solid rgb(85, 85, 85);
+                background-color: rgb(85, 85, 85);
+                color:rgb(228, 222, 222);
+                &::-webkit-input-placeholder{
+                    color: #fff;
+                }
+                &:focus{
+                    border: 1px solid #585858;
+                    &::-webkit-input-placeholder{
+                        transition: .3s;
+                        color: #585858;
+                    }
+                }
+            }
+            & textarea:focus ~ label{
+                color: #fff;
+            }
+        }
+        & button{
+            background: #2F80ED;
+            color: #FFFFFF;
+            border: 2px solid #2F80ED;
+            &:hover{
+                background-color: transparent;
+                color: #2F80ED;
+            }
+        }
+    }
+}
